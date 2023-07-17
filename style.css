@@ -17,7 +17,6 @@ a {
 
 span {
     font-style: normal;
-
 }
 
 h2, h3 {
@@ -27,12 +26,13 @@ h2, h3 {
 
 button {
     width: 100%;
-    padding: 5px;
+    padding: 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #3b3b3b;
     color: white;
     cursor: pointer;
+    font-size: 1em;
 }
 
 .header {
@@ -53,7 +53,7 @@ button {
 
 .header__label {
     font-family: 'Reenie Beanie', cursive;
-    font-size: 42px;
+    font-size: 76px;
     padding: 12px;
     text-align: center;
     height: 50%;
@@ -72,6 +72,7 @@ button {
     align-items: flex-end;
     padding-bottom: 10px;
     border-bottom: solid 3px #3b3b3b;
+    font-size: 1.8em;
 }
 
 .header__ul li:hover {
@@ -91,7 +92,7 @@ button {
 }
 
 #inicio span {
-    font-size: 26px;
+    font-size: .5em;
 }
 
 .inicio__p {
@@ -99,8 +100,9 @@ button {
     left: 20%;
     top: 10%;
     font-family: 'Playfair Display', serif;
-    font-size: 60px;
-    width: 250px;
+    font-size: 5em;
+    width: auto;
+    max-width: 300px;
     font-style: italic;
     line-height: 1em;
 }
@@ -119,6 +121,7 @@ button {
 }
 
 .quiz {
+    font-size: 1.2em;
     height: auto;
     max-height: 600px;
     width: 100%;
@@ -137,7 +140,7 @@ button {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     gap: 10px;
     background-color: #f5f5f5;
     padding: 20px;
@@ -165,7 +168,7 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 9px;
+    font-size: 1em;
     width: 100%;
     background-color: #f5f5f5;
     gap: 10px;
@@ -175,7 +178,7 @@ button {
 .footer__p {
     column-count: 2;
     column-gap: 30px;
-    max-width: 400px;
+    max-width: 600px;
     width: auto;
     text-align: justify;
 }
@@ -191,11 +194,16 @@ button {
 }
 
 .footer__span img {
-    max-width: 15px;
+    max-width: 25px;
 }
 
 .footer__about img {
-    max-width: 15px;
+    max-width: 25px;
+    transition: .6s;
+}
+
+.footer__about img:hover {
+    transform: scale(1.4);
 }
 
 .icon--text {
