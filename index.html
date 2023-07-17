@@ -24,7 +24,7 @@
             <ul class="header__ul">
                 <li><a href="#inicio">Início</a></li>
                 <li><a href="#biografia">Biografia</a></li>
-                <li><a href="#invencoes">Invenções</a></li>
+                <li><a href="#video">Video</a></li>
                 <li><a href="#quiz">Quiz</a></li>
             </ul>
         </nav>
@@ -55,16 +55,19 @@
                     <div id="textos">
                         <h2>Primeiros anos</h2>
                         <p>Lovelace teve uma educação incomum para uma garota aristocrática em meados do século XIX. Por insistência de sua mãe, os tutores ensinaram matemática e ciências. Assuntos tão desafiadores não eram uma tarifa padrão para as mulheres na época, mas sua mãe acreditava que se envolver em estudos rigorosos impediria Lovelace de desenvolver o temperamento temperamental e imprevisível de seu pai.
-                        Ada também foi forçada a ficar quieta por longos períodos de tempo, porque sua mãe acreditava que isso a ajudaria a desenvolver o autocontrole. Desde o início, Lovelace mostrou talento para números e idioma. Ela recebeu instruções de William Frend, um reformador social; William King, o médico da família; e Mary Somerville, astrônoma e matemática escocesa. Somerville foi uma das primeiras mulheres a ser admitida na Royal Astronomical Society</p>
+                        Ada também foi forçada a ficar quieta por longos períodos de tempo, porque sua mãe acreditava que isso a ajudaria a desenvolver o autocontrole. Desde o início, Lovelace mostrou talento para números e idioma. Ela recebeu instruções de William Frend, um reformador social; William King, o médico da família; e Mary Somerville, astrônoma e matemática escocesa. Somerville foi uma das primeiras mulheres a ser admitida na Royal Astronomical Society.</p>
                     </div>
+                    <img src="assets/imagem_ada_crianca.jpg" alt="foto preto e branco de ada criança">
                 </div>
 
                 <div class="slide-box terceiro">
                     <div id="textos">
                         <h2>Babbage e o mecanismo analitico</h2>
                         <p>Por volta dos 17 anos, Ada conheceu Charles Babbage, matemático e inventor. A dupla se tornou amiga, e o Babbage, muito mais velho, serviu como mentor de Lovelace. Através de Babbage, ela começou a estudar matemática avançada com o professor da Universidade de Londres Augustus de Morgan. Conhecido como o pai do computador, ele inventou o mecanismo de diferença, destinado a realizar cálculos matemáticos. Lovelace teve a chance de olhar para a máquina antes de terminar e ficou cativado por ela. Babbage também criou planos para outro dispositivo conhecido como mecanismo analítico, projetado para lidar com cálculos mais complexos. Mais tarde, Lovelace foi convidada a traduzir um artigo sobre o mecanismo analítico de Babbage que havia sido escrito pelo engenheiro italiano Luigi Federico Menabrea para um diário suíço.</p>
+                        <p id="destaque">Ela não apenas traduziu o texto original em francês para o inglês, mas também acrescentou seus próprios pensamentos e idéias na máquina. Suas anotações acabaram sendo três vezes mais longas que o artigo original. Seu trabalho foi publicado em 1843, em um jornal de ciências inglês. Lovelace usou apenas as iniciais "A.A.L." para Augusta Ada Lovelace, na publicação.</p>
                     </div>
-                    <p id="destaque">Ela não apenas traduziu o texto original em francês para o inglês, mas também acrescentou seus próprios pensamentos e idéias na máquina. Suas anotações acabaram sendo três vezes mais longas que o artigo original. Seu trabalho foi publicado em 1843, em um jornal de ciências inglês. Lovelace usou apenas as iniciais "A.A.L." para Augusta Ada Lovelace, na publicação.</p>
+                    
+                    <img src="assets/imagem_babbage.png" alt="foto preto e branco de babbage">
 
                 </div>
 
@@ -74,6 +77,7 @@
                         <p>Em 1835, Lovelace casou-se com William King, que se tornou o conde de Lovelace três anos depois. Ela então recebeu o título de condessa de Lovelace. Eles compartilharam um amor por cavalos e tiveram três filhos juntos. Na maioria das contas, ele apoiou os esforços acadêmicos de sua esposa. Lovelace e seu marido socializaram com muitas das mentes interessantes da época, incluindo o cientista Michael Faraday e o escritor Charles Dickens.
                         A saúde de Lovelace sofreu, no entanto, após um ataque de cólera em 1837. Ela tinha problemas persistentes com a asma e seu sistema digestivo. Os médicos lhe deram analgésicos, como láudano e ópio, e sua personalidade começou a mudar. Ela teria experimentado mudanças de humor e alucinações. Lovelace faleceu em 1852, aos 36 anos, de câncer uterino.</p>
                     </div>
+                    <img src="assets/imagem_ada_antiga.jpg" alt="foto preto e branco de ada">
                 </div>
 
                 <div class="nav-auto">
@@ -92,8 +96,41 @@
 
             </div>
         </article>
+
+        <article class="video" id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kveunrBU5UM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        </article>
+
+        <article id="quiz" class="quiz">
+            <h3>Teste seu conhecimento</h3>
+            <div class="content">
+                <span class="spnQtd"></span>
+                <span class="question"></span>
+                <div class="answers"></div>
+            </div>
+            <div class="finish">
+                <span></span>
+                <button>Reiniciar</button>
+            </div>
+        </article>
     </main>
 
-    <script src="script.js"></script>
+    <footer class="footer">
+        <a href="#inicio" class="footer_back_top">
+            <img src="assets/arrow-up-circle-svgrepo-com.svg" alt="retorna para o inicio da pagina">
+        </a>
+        <p class="footer__p">
+            Página desenvolvida como projeto final do programa de imersão "Programação Web para Iniciantes", promovido pela WoMakers Code|Mais Mulhers em Tech, em parceria com a Microsoft, NTT Global Networks e Cursos rme & irme. Tema e requisitos propostos pelo programa.
+        </p>
+        <span class="footer__span">
+            Feito com <img src="assets/heart-filled.svg" alt="carinho" class="icon icon--text"> por Marcele Eller Gusmão - 2023
+        </span>
+        <div class="footer__about">
+            <a href="https://www.linkedin.com/in/marceleeller/" target="_blank"><img src="assets/linkedin.svg" alt="linkedin" class="icon"></a>
+            <a href="https://github.com/marceleeller" target="_blank"><img src="assets/github.svg" alt="github" class="icon"></a>
+        </div>
+    </footer>
+
+    <script type="module" src="script.js"></script>
 </body>
 </html>
