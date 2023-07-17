@@ -7,12 +7,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site sobre biografia de Ada Lovelace para conclusão do curso Desenvolvimento web para iniciantes da WoMakersCode">
 
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Reenie+Beanie&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
     <title>Ada Lovelace</title>
 </head>
 <body>
+    <header class="header">
+        <nav class="header__nav">
+            <label class="header__label">Ada Lovelace</label>
+            <ul class="header__ul">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#biografia">Biografia</a></li>
+                <li><a href="#invencoes">Invenções</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article class="section" id="inicio">
+            <p class="inicio__p">Quem foi <strong>Ada Lovelace?</strong><span>1815 - 1852</span></p>
+        </article>
     
+        <article class="slider" id="biografia">
+            <div class="slider-content">
+                <input type="radio" name="btn-radio" id="radio1" checked>
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+                <input type="radio" name="btn-radio" id="radio4">
+
+                <div class="slide-box primeiro">
+                    <div id="textos">
+                        <p>Ada Lovelace (1815-1852) foi uma matemática e escritora britânica, considerada a primeira programadora de computadores da história. Ela é conhecida por ter escrito, em 1843, o primeiro algoritmo destinado a ser processado por uma máquina, a Máquina Analítica projetada por Charles Babbage. Ada Lovelace também previu o potencial dos computadores para ir além do cálculo matemático, imaginando que as máquinas poderiam ser usadas para criar música e arte. Seu trabalho teve uma influência significativa na história da computação e é um exemplo de como mulheres estiveram envolvidas na ciência e tecnologia desde os primórdios dessas áreas, apesar das barreiras de gênero que enfrentaram.</p>
+                        <p id="destaque">Ela é lembrada como uma das pioneiras mais importantes da computação e uma inspiração para as mulheres na tecnologia.
+                    </p>
+                    </div>
+                    <img src="assets/ada-ff48e782.jpg" alt="foto preto e branco de ada lovelace">
+                </div>
+
+                <div class="slide-box segundo">
+                    <div id="textos">
+                        <h2>Primeiros anos</h2>
+                        <p>Lovelace teve uma educação incomum para uma garota aristocrática em meados do século XIX. Por insistência de sua mãe, os tutores ensinaram matemática e ciências. Assuntos tão desafiadores não eram uma tarifa padrão para as mulheres na época, mas sua mãe acreditava que se envolver em estudos rigorosos impediria Lovelace de desenvolver o temperamento temperamental e imprevisível de seu pai.
+                        Ada também foi forçada a ficar quieta por longos períodos de tempo, porque sua mãe acreditava que isso a ajudaria a desenvolver o autocontrole. Desde o início, Lovelace mostrou talento para números e idioma. Ela recebeu instruções de William Frend, um reformador social; William King, o médico da família; e Mary Somerville, astrônoma e matemática escocesa. Somerville foi uma das primeiras mulheres a ser admitida na Royal Astronomical Society</p>
+                    </div>
+                </div>
+
+                <div class="slide-box terceiro">
+                    <div id="textos">
+                        <h2>Babbage e o mecanismo analitico</h2>
+                        <p>Por volta dos 17 anos, Ada conheceu Charles Babbage, matemático e inventor. A dupla se tornou amiga, e o Babbage, muito mais velho, serviu como mentor de Lovelace. Através de Babbage, ela começou a estudar matemática avançada com o professor da Universidade de Londres Augustus de Morgan. Conhecido como o pai do computador, ele inventou o mecanismo de diferença, destinado a realizar cálculos matemáticos. Lovelace teve a chance de olhar para a máquina antes de terminar e ficou cativado por ela. Babbage também criou planos para outro dispositivo conhecido como mecanismo analítico, projetado para lidar com cálculos mais complexos. Mais tarde, Lovelace foi convidada a traduzir um artigo sobre o mecanismo analítico de Babbage que havia sido escrito pelo engenheiro italiano Luigi Federico Menabrea para um diário suíço.</p>
+                    </div>
+                    <p id="destaque">Ela não apenas traduziu o texto original em francês para o inglês, mas também acrescentou seus próprios pensamentos e idéias na máquina. Suas anotações acabaram sendo três vezes mais longas que o artigo original. Seu trabalho foi publicado em 1843, em um jornal de ciências inglês. Lovelace usou apenas as iniciais "A.A.L." para Augusta Ada Lovelace, na publicação.</p>
+
+                </div>
+
+                <div class="slide-box quarto">
+                    <div id="textos">
+                        <h2>Vida pessoal</h2>
+                        <p>Em 1835, Lovelace casou-se com William King, que se tornou o conde de Lovelace três anos depois. Ela então recebeu o título de condessa de Lovelace. Eles compartilharam um amor por cavalos e tiveram três filhos juntos. Na maioria das contas, ele apoiou os esforços acadêmicos de sua esposa. Lovelace e seu marido socializaram com muitas das mentes interessantes da época, incluindo o cientista Michael Faraday e o escritor Charles Dickens.
+                        A saúde de Lovelace sofreu, no entanto, após um ataque de cólera em 1837. Ela tinha problemas persistentes com a asma e seu sistema digestivo. Os médicos lhe deram analgésicos, como láudano e ópio, e sua personalidade começou a mudar. Ela teria experimentado mudanças de humor e alucinações. Lovelace faleceu em 1852, aos 36 anos, de câncer uterino.</p>
+                    </div>
+                </div>
+
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+
+            </div>
+        </article>
+    </main>
 
     <script src="script.js"></script>
 </body>
